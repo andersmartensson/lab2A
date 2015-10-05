@@ -12,6 +12,8 @@ package server;
 import java.rmi.*;
 import java.rmi.server.*;
 import java.util.Scanner;
+import server.Auction;
+import server.Notifiable;
 
 public class AuctionClient extends UnicastRemoteObject implements Notifiable {
 
